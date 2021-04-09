@@ -1,5 +1,5 @@
 # Challenge 15: MechaCar_Statistical_Analysis
-## Linaer regression to Predict MPG
+## Linear regression to Predict MPG
 
 | linear_regression_output| 
 | :---: |
@@ -13,9 +13,12 @@ The overall p-value 5.35e-11 is miniscule and therefore we **reject** the **null
 The Multiple R-squared 0.7149 provides a measure of how well the model is fitting the actual data. This model predicts mpg of MechaCar prototypes effectively. Here 71.49% of the mpg variability is explained by this model.
 ## Summary Statistics on Suspension Coils
 
-| total_summary| lot_summary | 
-| :---: | :---: | 
-| ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/total_summary.png) | ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/lot_summary.png) | 
+| total_summary| 
+| :---: | 
+| ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/total_summary.png) | 
+| lot_summary | 
+| :---: | 
+| ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/lot_summary.png) | 
 
 the design specification requirement for all the manufacturing lots and each lot individually
 Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
