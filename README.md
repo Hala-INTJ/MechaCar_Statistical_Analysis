@@ -17,7 +17,6 @@ The Multiple R-squared 0.7149 provides a measure of how well the model is fittin
 | :---: | 
 | ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/total_summary.png) | 
 | lot_summary | 
-| :---: | 
 | ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/lot_summary.png) | 
 
 the design specification requirement for all the manufacturing lots and each lot individually
