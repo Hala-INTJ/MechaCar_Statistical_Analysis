@@ -3,7 +3,7 @@
 
 | linear_regression_output| 
 | :---: |
-| ![]() | 
+| ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/linear_regression_output.png) | 
 
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 The variables vehicle_length and ground_clearance have an individual p-value of 2.60e-12 and 5.21e-08 respectively. These very close to zero individual p-value indicate that it is unlikely that the relationship between the dependant variable - mpg - and the independant variables - variables vehicle_length and ground_clearance - is due to chance.
@@ -15,7 +15,7 @@ The Multiple R-squared 0.7149 provides a measure of how well the model is fittin
 
 | total_summary| lot_summary | 
 | :---: | :---: | 
-| ![]() | ![]() | 
+| ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/total_summary.png) | ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/lot_summary.png) | 
 
 the design specification requirement for all the manufacturing lots and each lot individually
 Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
@@ -26,7 +26,7 @@ Given than the variance of the suspension coils must not exceed 100 pounds per s
 
 | t-test all manufacturing lots| t-test Lot1 | t-test Lot2 | t-test Lot3 |
 | :---: | :---: |:---: |:---: |
-| ![]() | ![]() | ![]() | ![]() | 
+| ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/all_t_test.png) | ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/lot1_t_test.png) | ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/lot2_t_test.png) | ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/lot3_t_test.png) | 
 
 
 perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
