@@ -21,30 +21,29 @@ The Multiple R-squared of 0.7149 provides a measure of how well the model fits t
 | :---: | 
 | ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/lot_summary.png) | 
 
-the design specification requirement for all the manufacturing lots and each lot individually
-Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-
 Given that the variance of the suspension coils must not exceed 100 pounds per square inch, as per the design specifications, the following observations are revealed from the summary:
-- All manufacturing lots: technically meets the design specifications but the variance indicates a possible issue with one or more lots. 
+- All Manufacturing Lots: technically meets the design specifications but the variance indicates a possible issue with one or more lots. 
 - Lot 1: meets the design specifications.
 - Lot 2: meets the design specifications.
 - Lot 3: does not meet the design specification.
 
 ## T-Tests on Suspension Coils
 
-| t-test all manufacturing lots| t-test Lot1 |
-| :---: | :---:
+| t-test All Manufacturing Lots| t-test Lot1 |
+| :---: | :---: |
 | ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/all_t_test.png) | ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/lot1_t_test.png) | 
+
 | t-test Lot2 | t-test Lot3 |
+| :---: | :---: |
 | ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/lot2_t_test.png) | ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/lot3_t_test.png) | 
 
-The following observations are revealed from the t-test results:
-- All manufacturing lots: p-value is 0.06028, this indicates that we do not have sufficient evidence to reject the null hypotheses, and we would state that the two means are statistically similar.
-- Lot 1: p-value is 1, 
-- Lot 2: p- value is 0.6072,
-- Lot 3: p-value is 0.04168, 
+| All Manufacturing Lots | p-value: 0.06028 |
+| Lot 1 | p-value: 1 |
+| Lot 2 | p-value: 1 | 
+| Lot 3 | p-value: 0.04168 |
 
-t tests were employed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. For All manufacturing lots as well as Lot 1 and Lot 2, the p-values indicate that there is sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. As for Lot 3, there is sufficient evidence to reject the null hypothesis and state that the two means are statistically different, assuming a significance level of 0.05. 
+
+t-tests were employed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. For All Manufacturing Lots as well as Lot 1 and Lot 2, the p-values indicate that there is sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. As for Lot 3, there is sufficient evidence to reject the null hypothesis and state that the two means are statistically different, assuming a significance level of 0.05. 
 ## Study Design: MechaCar vs Competition
 
 
