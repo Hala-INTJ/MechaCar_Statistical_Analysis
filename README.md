@@ -15,7 +15,8 @@ The Multiple R-squared of 0.7149 provides a measure of how well the model fits t
 
 | total_summary| 
 | :---: | 
-| ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/total_summary.png) 
+| ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/total_summary.png) |
+
 | lot_summary | 
 | :---: | 
 | ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/lot_summary.png) | 
