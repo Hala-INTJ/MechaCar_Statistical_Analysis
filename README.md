@@ -60,7 +60,7 @@ For our study comparing performance of the MechaCar against the Competition, we 
 
 The null hypothesis states that there is no statistical difference between the means of the data for MechaCar models and the other auto manufacturer's models, within the same class.  
 
-The statistical test selected for this study is a two-sample t-test (independent t-test). Two-sample t-test is useful when the data:
+The statistical test selected for this study is a two-sample t-test (independent t-test). Two-sample t-test is useful when the data:\
 * is independent
 * is normally distributed (approximately)
 * has a similar amount of variance within each group being compared
