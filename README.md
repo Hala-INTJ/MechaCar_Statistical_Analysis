@@ -8,7 +8,7 @@
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 The variables vehicle_length and ground_clearance have individual p-values of 2.60e-12 and 5.21e-08 respectively. Since these p-values are very close to zero, this indicates that it is unlikely that the relationship between the dependent variable (mpg) and the independent variables (vehicle_length and ground_clearance) is due to chance.
 ### Is the slope of the linear model considered to be zero? Why or why not?
-The overall p-value of 5.35e-11 is miniscule and therefore we reject the null hypothesis which states that the slope of the linear model is zero. Generally, a p-value less than 0.05 significance level indicates that the overall model is significant. 
+The overall p-value of 5.35e-11 is miniscule and therefore we reject the null hypothesis, and we would state that the slope of the linear model is not zero. Generally, a p-value less than 0.05 significance level indicates that the overall model is significant. 
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 The Multiple R-squared of 0.7149 provides a measure of how well the model fits the actual data. This model predicts mpg of MechaCar prototypes effectively. Here 71.49% of the mpg variability is explained by this model.
 ## Summary Statistics on Suspension Coils
