@@ -48,33 +48,28 @@ Given that the variance of the suspension coils must not exceed 100 pounds per s
 
 | Lot | p-value |
 | --- | --- |
-| All Manufacturing Lots | p-value: 0.06028 |
-| Lot 1 | p-value: 1 |
-| Lot 2 | p-value: 1 | 
-| Lot 3 | p-value: 0.04168 |
-
+| All Manufacturing Lots | 0.06028 |
+| Lot 1 | 1 |
+| Lot 2 | 0.6072 | 
+| Lot 3 | 0.04168 |
 
 t-tests were employed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. For All Manufacturing Lots as well as Lot 1 and Lot 2, the p-values indicate that there is sufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. As for Lot 3, there is sufficient evidence to reject the null hypothesis and state that the two means are statistically different, assuming a significance level of 0.05. 
 ## Study Design: MechaCar vs Competition
 
-
-What metric or metrics are you going to test?
 For our study comparing performance of the MechaCar against the Competition, we will use the overall cost of ownership, and the safety rating as the focus data for our test. 
 
-What is the null hypothesis or alternative hypothesis?
 The null hypothesis states that there is no statistical difference between the means of the data for MechaCar models and the other auto manufacturer's models, within the same class.  
 
-What statistical test would you use to test the hypothesis? And why?
-The statistical test selected for this study is a two-sample t-test (independent t-test).  Two sample t-tests are useful when the data:
+The statistical test selected for this study is a two-sample t-test (independent t-test). Two-sample t-test is useful when the data:
 - is independent
 - is normally distributed (approximately)
 - has a similar amount of variance within each group being compared
+
 The data collected will be evaluated to ensure it meets these criteria, indicating the t-test will yield meaningful results.
 
-The null hypothesis will be evaluated for each auto class which MechaCar and the other manufacturer have in common.  This will allow MechaChar to determine which of their product classes are statistically differentiated compared to their competitor.
+The null hypothesis will be evaluated for each auto class which MechaCar and the other manufacturer have in common. This will allow MechaChar to determine which of their product classes are statistically differentiated compared to their competitor.
 
-What data is needed to run the statistical test?
-For these tests, we will need the following, for each class of car to be compared:
+For these tests, we will need the following data, for each class of car to be compared:
 - advertised purchase price, fuel efficiency rating, and historical maintenance costs (overall cost of ownership)
 - IIHS safety ratings
 
