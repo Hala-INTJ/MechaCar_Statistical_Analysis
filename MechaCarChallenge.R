@@ -33,5 +33,3 @@ t.test(subset(Suspension_Coil_table, Manufacturing_Lot=="Lot3")$PSI, mu=1500)
 
 
 
-
-
