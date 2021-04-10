@@ -29,9 +29,14 @@ Given that the variance of the suspension coils must not exceed 100 pounds per s
 
 ## T-Tests on Suspension Coils
 
-| t-test All Manufacturing Lots| t-test Lot1 |
-| :---: | :---: |
-| ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/all_t_test.png) | ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/lot1_t_test.png) | 
+| t-test All Manufacturing Lots| 
+| :---: | 
+| ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/all_t_test.png) | 
+
+| t-test Lot1 |
+| :---: |
+| ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/lot1_t_test.png) |
+
 
 | t-test Lot2 | t-test Lot3 |
 | :---: | :---: |
