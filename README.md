@@ -38,9 +38,14 @@ Given that the variance of the suspension coils must not exceed 100 pounds per s
 | ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/lot1_t_test.png) |
 
 
-| t-test Lot2 | t-test Lot3 |
-| :---: | :---: |
-| ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/lot2_t_test.png) | ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/lot3_t_test.png) | 
+| t-test Lot2 | 
+| :---: | 
+| ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/lot2_t_test.png) | 
+
+| t-test Lot3 |
+| :---: |
+| ![](https://github.com/Hala-INTJ/MechaCar_Statistical_Analysis/blob/main/Images/lot3_t_test.png) | 
+
 
 | All Manufacturing Lots | p-value: 0.06028 |
 | Lot 1 | p-value: 1 |
