@@ -53,7 +53,7 @@ Given that the variance of the suspension coils must not exceed 100 pounds per s
 | Lot 2 | 0.6072 | 
 | Lot 3 | 0.04168 |
 
-t-tests were employed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. For All Manufacturing Lots as well as Lot 1 and Lot 2, the p-values indicate that there is sufficient evidence to fail to reject the null hypothesis, and we would state that the two means are statistically similar. As for Lot 3, there is sufficient evidence to reject the null hypothesis and state that the two means are statistically different, assuming a significance level of 0.05. 
+t-tests were employed to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch. For All Manufacturing Lots as well as Lot 1 and Lot 2, the p-values indicate that there is insufficient evidence to reject the null hypothesis, and we would state that the two means are statistically similar. As for Lot 3, there is sufficient evidence to reject the null hypothesis and state that the two means are statistically different, assuming a significance level of 0.05. 
 ## Study Design: MechaCar vs Competition
 
 For our study comparing performance of the MechaCar against the Competition, we will use the overall cost of ownership, and the safety rating as the focus data for our test. 
